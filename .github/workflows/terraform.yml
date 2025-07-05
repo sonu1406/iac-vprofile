@@ -34,7 +34,7 @@ jobs:
        - name: Checkout source code 
          uses: actions/checkout@v4
 
-       - name: Setup Terraform with specified version on the run
+       - name: Setup Terraform with specified version on the run yes
          uses: hashicorp/setup-terraform@v2
          with:
           terraform_version: 1.6.3
